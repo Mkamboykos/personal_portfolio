@@ -59,8 +59,8 @@
                     <div class="home__data">
                         <span class="home__greeting">Hello, My name is</span>
                         <h1 class="home__name">Manuel Kamboykos</h1>
-                        <span class="home__profession">Software Developer</span>
-                        <a download="" href="assets/pdf/Manuel_Kamboykos_Resume.pdf" class="button button-light home__button">Download Cv</a>
+                        <span class="home__profession">Software Engineer</span>
+                        <a download="" href="assets/pdf/Manuel_Kamboykos_Resume.pdf" class="button button-light home__button">Download CV</a>
                     </div>
 
                     <div class="home__social">
@@ -70,7 +70,7 @@
                     </div>
 
                     <div class="home__img">
-                        <img src="assets/img/home.png" alt="" class="">
+                        <img src="assets/img/home.webp" alt="" class="">
                     </div>
                 </div>
             </section>
@@ -82,7 +82,8 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__data bd-grid">
-                        <p class="about__description"><span>Hello, I am<br></span>
+                        <p class="about__description">
+                        <span>Hello, I am<br></span>
                             Highly motivated and ambitious college student working towards a BS in Computer 
                             Science under the Software Design and Development Track, over at the Florida 
                             International University. Holding a BA in Psychology with an outstanding record 
@@ -256,41 +257,42 @@
 
 
 
-            <!-- === SERVICES === -->
+            <!-- === SKILLS === -->
             <section class="services section bd-container" id="services">
                 <span class="section-subtitle">Technical</span>
                 <h2 class="section-title">Skills</h2>
+                <div class="service__side">
+                    <div class="services__container bd-grid">
 
-                <div class="services__container bd-grid">
+                        <div class="services__data">
+                            <i class='bx bx-laptop services__icon' ></i>
+                            <h3 class="services__title">Languages</h3>
+                            <h1 class="services__description">
+                                <i class='bx bxl-html5 services__icon' style='color:#FF5733'  >
+                                <i class='bx bxl-css3 services__icon' style='color:#264de4'  >
+                                <i class='bx bxl-javascript services__icon' style='color:#f0db4f'  >
+                                </i></i></i>   
+                                
+                                <br>
+                                <i class="fab fa-java services__icon" style=" padding-left: 25px;">
+                                <i class="fab fa-python services__icon" style="padding-left: 25px; padding-right: 25px; color:orange;">
+                                <i class="fas fa-copyright services__icon" style="padding-left: 15px; color:rgba(9, 197, 211, 0.932)">
+                                </i></i></i>
+                        </div>
 
-                    <div class="services__data">
-                        <i class='bx bx-laptop services__icon' ></i>
-                        <h3 class="services__title">Languages</h3>
-                        <h1 class="services__description">
-                            <i class='bx bxl-html5 services__icon' style='color:#FF5733'  >
-                            <i class='bx bxl-css3 services__icon' style='color:#264de4'  >
-                            <i class='bx bxl-javascript services__icon' style='color:#f0db4f'  >
-                             </i></i></i>   
-                             
-                             <br>
-                             <i class="fab fa-java services__icon" style=" padding-left: 25px;">
-                             <i class="fab fa-python services__icon" style="padding-left: 25px; padding-right: 25px; color:orange;">
-                             <i class="fas fa-copyright services__icon" style="padding-left: 15px; color:rgba(9, 197, 211, 0.932)">
-                             </i></i></i>
-                    </div>
+                        <div class="services__data">
+                            <i class='bx bx-library services__icon' ></i>
+                            <h3 class="services__title">Frameworks</h3>
+                            <p class="services__description">Description here</p>
+                            <a href="#" class="button">Know More</a>
+                        </div>
 
-                    <div class="services__data">
-                        <i class='bx bx-library services__icon' ></i>
-                        <h3 class="services__title">Frameworks</h3>
-                        <p class="services__description">Description here</p>
-                        <a href="#" class="button">Know More</a>
-                    </div>
-
-                    <div class="services__data">
-                        <i class='bx bx-pen services__icon' ></i>
-                        <h3 class="services__title">IDEs</h3>
-                        <p class="services__description">Description here</p>
-                        <a href="#" class="button">Know More</a>
+                        <div class="services__data">
+                            <i class='bx bx-pen services__icon' ></i>
+                            <h3 class="services__title">IDEs</h3>
+                            <p class="services__description">Description here</p>
+                            <a href="#" class="button">Know More</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -299,17 +301,19 @@
 
             <!-- === PROJECT IN MIND === -->
             <section class="project section bd-container">
-                <div class="project__container bd-grid">
-                    <div class="project__data">
-                        <i class='bx bx-chat project__icon' ></i>
+                <div class="projects__side">
+                    <div class="project__container bd-grid">
+                        <div class="project__data">
+                            <i class='bx bx-chat project__icon' ></i>
 
-                        <div>
-                            <h2 class="project__title">Projects in Mind</h2>
-                            <p class="project__description">Hire me to carry out the following projects.</p>
-                        </div>
+                            <div>
+                                <h2 class="project__title">Projects in Mind</h2>
+                                <p class="project__description">Hire me to carry out the following projects.</p>
+                            </div>
 
-                        <div>
-                            <a href="#" class="button button-white">Hire me</a>
+                            <div>
+                                <a href="#" class="button button-white">Hire me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -322,42 +326,44 @@
                 <span class="section-subtitle">My recent works</span>
                 <h2 class="section-title">Portfolio</h2>
 
-                <div class="porfolio__nav">
-                    <span class="portfolio__item active-portfolio" data-filter="all">All</span>
-                    <span class="portfolio__item" data-filter=".web">Web</span>
-                    <span class="portfolio__item" data-filter=".app">App</span>
-                    <span class="portfolio__item" data-filter=".ux">UI/UX</span>
-                </div>
-
-                <div class="portfolio__container bd-grid">
-
-                    <!-- === portfolio work #1 === -->
-                    <div class="portfolio__content mix web">
-                        <a href="#"><img src="#" alt="" class="portfolio__img"></a>
-                        <div class="portfolio__data">
-                            <span class="porfolio__subtitle">Web Development</span>
-                            <a href="#"><h2 class="portfolio__title">Work description here</h2></a>
-                            <a href="#" class="button button-link">View Details</a>
-                        </div>
+                <div class="portfolio__side">
+                    <div class="porfolio__nav">
+                        <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+                        <span class="portfolio__item" data-filter=".web">Web</span>
+                        <span class="portfolio__item" data-filter=".app">App</span>
+                        <span class="portfolio__item" data-filter=".ux">UI/UX</span>
                     </div>
 
-                    <!-- === portfolio work #2 === --> 
-                    <div class="portfolio__content mix app">
-                        <a href="#"><img src="#" alt="" class="portfolio__img"></a>
-                        <div class="portfolio__data">
-                            <span class="porfolio__subtitle">Mobile App</span>
-                            <a href="#"><h2 class="portfolio__title">Work description here</h2></a>
-                            <a href="#" class="button button-link">View Details</a>
-                        </div>
-                    </div>
+                    <div class="portfolio__container bd-grid">
 
-                    <!-- === portfolio work #3 === -->
-                    <div class="portfolio__content mix ux">
-                        <a href="#"><img src="" alt="" class="portfolio__img"></a>
-                        <div class="portfolio__data">
-                            <span class="porfolio__subtitle">UI/UX Design</span>
-                            <a href="#"><h2 class="portfolio__title">Work description here</h2></a>
-                            <a href="#" class="button button-link">View Details</a>
+                        <!-- === portfolio work #1 === -->
+                        <div class="portfolio__content mix web">
+                            <a href="#"><img src="#" alt="" class="portfolio__img"></a>
+                            <div class="portfolio__data">
+                                <span class="porfolio__subtitle">Web Development</span>
+                                <a href="#"><h2 class="portfolio__title">Work description here</h2></a>
+                                <a href="#" class="button button-link">View Details</a>
+                            </div>
+                        </div>
+
+                        <!-- === portfolio work #2 === --> 
+                        <div class="portfolio__content mix app">
+                            <a href="#"><img src="#" alt="" class="portfolio__img"></a>
+                            <div class="portfolio__data">
+                                <span class="porfolio__subtitle">Mobile App</span>
+                                <a href="#"><h2 class="portfolio__title">Work description here</h2></a>
+                                <a href="#" class="button button-link">View Details</a>
+                            </div>
+                        </div>
+
+                        <!-- === portfolio work #3 === -->
+                        <div class="portfolio__content mix ux">
+                            <a href="#"><img src="" alt="" class="portfolio__img"></a>
+                            <div class="portfolio__data">
+                                <span class="porfolio__subtitle">UI/UX Design</span>
+                                <a href="#"><h2 class="portfolio__title">Work description here</h2></a>
+                                <a href="#" class="button button-link">View Details</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -370,35 +376,34 @@
                 <span class="section-subtitle">My client saying</span>
                 <h2 class="section-title">References</h2>
 
-                <div class="references__container swiper-container">
-                    <div class="swiper-wrapper">
+                    <div class="references__container swiper-container">
+                        <div class="swiper-wrapper">
 
-                        <!-- Reference #1-->
-                        <div class="references__content swiper-slide">
-                            <a href="https://www.linkedin.com/in/pj-tatlow-7073b855/" target="_blank" class="references__img"><img src="assets/img/PJ.PNG" alt="" class="references__img"></a>  
-                            <a href="https://www.linkedin.com/in/pj-tatlow-7073b855/" target="_blank"><h3 class="references__title" >PJ Tatlow</h3></a>
-                            <span class="references__person" >Software Engineer at Qualtrics</span>
-                            <p class="references__description">
-                                PJ was assigned to me by the Qualtrics Mentoring Program, 
-                                as my mentor and has since served as guidance in the field
-                                of software engineering.
-                            </p>
-                        </div>
+                            <!-- Reference #1-->
+                            <div class="references__content swiper-slide">
+                                <a href="https://www.linkedin.com/in/pj-tatlow-7073b855/" target="_blank" class="references__img"><img src="assets/img/PJ.webp" alt="" class="references__img"></a>  
+                                <a href="https://www.linkedin.com/in/pj-tatlow-7073b855/" target="_blank"><h3 class="references__title" >PJ Tatlow</h3></a>
+                                <span class="references__person" >Software Engineer at Qualtrics</span>
+                                <p class="references__description">
+                                    PJ was assigned to me by the Qualtrics Mentoring Program, 
+                                    as my mentor and has since served as guidance in the field
+                                    of software engineering.
+                                </p>
+                            </div>
 
-                        <!-- Reference #2-->
-                        <div class="references__content swiper-slide">
-                            <a href="#" target="_blank" class="references__img"><img src="#" alt="" class="references__img"></a>
-                            <a href="#" target="_blank"><h3 class="references__title" >Reference #2</h3></a>
-                            <span class="references__person">Title</span>
-                            <p class="references__description">
-                                Description
-                            </p>
+                            <!-- Reference #2-->
+                            <div class="references__content swiper-slide">
+                                <a href="#" target="_blank" class="references__img"><img src="#" alt="" class="references__img"></a>
+                                <a href="#" target="_blank"><h3 class="references__title" >Reference #2</h3></a>
+                                <span class="references__person">Title</span>
+                                <p class="references__description">
+                                    Description
+                                </p>
+                            </div>
                         </div>
+                    
+                        <div class="swiper-pagination"></div>
                     </div>
-                
-                    <div class="swiper-pagination"></div>
-
-                </div>
             </section>
 
 
@@ -408,56 +413,58 @@
                 <span class="section-subtitle">Let's Work Together</span>
                 <h2 class="section-title">Contact Me</h2>
 
-                <div class="contact__container bd-grid">
-                    <div class="contact__content bd-grid">
-                        
-                        <div class="contact__box">
-                            <i class='bx bx-home contact__icon' ></i>
-                            <h3 class="contact__title">Location</h3>
-                            <span class="contact__description"> Miami, FL</span>
-                        </div>
-
-                        <div class="contact__box">
-                            <i class='bx bx-phone contact__icon' ></i>
-                            <h3 class="contact__title">Phone</h3>
-                            <span class="contact__description">+1 (786) 539-7122</span>
-                        </div>
-
-                        <div class="contact__box">
-                            <i class='bx bx-envelope contact__icon' ></i>
-                            <h3 class="contact__title">Gmail</h3>
-                            <span class="contact__description">manuel.kamboykos@gmail.com</span>
-                        </div>
-
-                        <div class="contact__box">
-                            <i class='bx bx-chat contact__icon' ></i>
-                            <h3 class="contact__title">Chat</h3>
-                            <div>
-                                <a href="#" class="contact__social"><i class='bx bxl-whatsapp-square' ></i></a>
-                                <a href="#" class="contact__social"><i class='bx bxl-telegram' ></i></a>
-                                <a href="#" class="contact__social"><i class='bx bxl-messenger' ></i></a>
+                <div class="constact__side">
+                    <div class="contact__container bd-grid">
+                        <div class="contact__content bd-grid">
+                            
+                            <div class="contact__box">
+                                <i class='bx bx-home contact__icon' ></i>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__description"> Miami, FL</span>
                             </div>
+
+                            <div class="contact__box">
+                                <i class='bx bx-phone contact__icon' ></i>
+                                <h3 class="contact__title">Phone</h3>
+                                <span class="contact__description">+1 (786) 539-7122</span>
+                            </div>
+
+                            <div class="contact__box">
+                                <i class='bx bx-envelope contact__icon' ></i>
+                                <h3 class="contact__title">Gmail</h3>
+                                <span class="contact__description">manuel.kamboykos@gmail.com</span>
+                            </div>
+
+                            <div class="contact__box">
+                                <i class='bx bx-chat contact__icon' ></i>
+                                <h3 class="contact__title">Chat</h3>
+                                <div>
+                                    <a href="#" class="contact__social"><i class='bx bxl-whatsapp-square' ></i></a>
+                                    <a href="#" class="contact__social"><i class='bx bxl-telegram' ></i></a>
+                                    <a href="#" class="contact__social"><i class='bx bxl-messenger' ></i></a>
+                                </div>
+                            </div>
+
                         </div>
+
+                        <!-- CONTACT FORM -->
+                        <form action="" class="contact__form">
+                            <div class="contact__inputs">
+                                <input type="text" placeholder="Name" class="contact__input">
+                                <input type="email" placeholder="Email" class="contact__input">
+                            </div>
+
+                            <div class="contact__inputs">
+                                <input type="text" placeholder="Project" class="contact__input">
+                                <input type="number" placeholder="Number" class="contact__input">
+                            </div>
+
+                            <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
+
+                            <input type="submit" value="Send Message" class="button contact_button">
+                        </form>
 
                     </div>
-
-                    <!-- CONTACT FORM -->
-                    <form action="" class="contact__form">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="email" placeholder="Email" class="contact__input">
-                        </div>
-
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Project" class="contact__input">
-                            <input type="number" placeholder="Number" class="contact__input">
-                        </div>
-
-                        <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
-
-                        <input type="submit" value="Send Message" class="button contact_button">
-                    </form>
-
                 </div>
             </section>
 

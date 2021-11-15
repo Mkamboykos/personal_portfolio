@@ -354,7 +354,8 @@ img{
 
 /*===== ABOUT =====*/
 .about__data{
-    text-align: center;
+    text-align: justify;
+    margin: 0 5% 0 5%;
 }
 
 .about__description span{
@@ -378,6 +379,7 @@ img{
 /*===== QUALIFICATION =====*/
 .qualification__container{
     row-gap: 2.5rem;
+    margin: 0 5% 0 5%;
 }
 
 .qualification__title{
@@ -415,6 +417,11 @@ img{
 }
 
 /*===== SERVICES =====*/
+
+.service__side{
+    margin: 0 5% 0 5%;
+}
+
 .services__data{
     padding: 3rem 1rem;
     background-color: #FFF;
@@ -425,7 +432,6 @@ img{
 }
 
 .services__icon, .services__title{
-    margin-bottom: var(--mb-2);
     color: var(--first-color);
 }
 
@@ -447,6 +453,11 @@ img{
 }
 
 /*===== PROJECT IN MIND =====*/
+
+.projects__side{
+    margin: 0 5% 0 5%;
+}
+
 .project__container{
     padding: 1.5rem 1rem;
     background-color: var(--first-color-dark);
@@ -472,6 +483,11 @@ img{
 }
 
 /*===== PORTFOLIO =====*/
+
+.portfolio__side{
+    margin: 0 5% 0 5%;
+}
+
 .portfolio__nav{
     text-align: center;
     margin-bottom: var(--mb-3);
@@ -524,6 +540,7 @@ img{
 }
 
 /*===== REFERENCES =====*/
+
 .references__content{
     display: grid;
     background-color: var(--first-color-dark);
@@ -547,6 +564,7 @@ img{
     color: var(--first-color-light);
     margin-bottom: var(--mb-2);
 }
+
 .references__title{
     color:var(--first-color-lighten); 
 }
@@ -563,7 +581,15 @@ img{
     background-color: var(--first-color);
 }
 
+.swiper-slide{
+    height: auto;
+}
+
 /*===== CONTACTME =====*/
+.constact__side{
+    margin: 0 5% 0 5%;
+}
+
 .contact__container{
     row-gap: 2.5rem;
 }
@@ -694,11 +720,11 @@ img{
 @media screen and (min-width: 576px){
     .home__img img{
         width: 625px;
-        
     }
 
     .about__container{
         text-align: center;
+        display: inline-block;
     }
      
     .qualification__container, 
