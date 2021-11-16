@@ -364,7 +364,12 @@
                             <div class="portfolio__data">
                                 <span class="porfolio__subtitle">UI/UX Design</span>
                                 <a href="#"><h2 class="portfolio__title">Work description here</h2></a>
-                                <a href="#" class="button button-link">View Details</a>
+                                <a href="#" target="_blank" class="button collapsible">View Details</a>
+                                
+                                <div class="content">
+                                    <br/>
+                                    <iframe width="414" height="736" src="https://xd.adobe.com/embed/683bf271-ed3d-49ea-8a6c-ab6b2b4c0903-3d68/" frameborder="0" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -500,6 +505,23 @@
 
         <!-- === MAIN JS ===-->
         <script src="assets/js/main.js"></script>
+
+        <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
     </body>
 </html>

@@ -539,6 +539,19 @@ img{
     font-weight: var(--font-semi-bold);
 }
 
+
+.content {
+    padding: 0;
+    display: none;
+    overflow: hidden;
+  }
+
+  .content:active{
+    padding: 0;
+    display: flexbox;
+    overflow: hidden;
+  }
+
 /*===== REFERENCES =====*/
 
 .references__content{
