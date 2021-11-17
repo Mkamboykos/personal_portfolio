@@ -547,11 +547,11 @@ img{
     overflow: hidden;
   }
 
-  .content:active{
+  /* .content:active{
     padding: 0;
     display: flexbox;
     overflow: hidden;
-  }
+  } */
 
 /*===== REFERENCES =====*/
 
