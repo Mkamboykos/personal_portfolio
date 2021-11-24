@@ -629,6 +629,7 @@ li {
 /*===== CONTACTME =====*/
 .constact__side{
     margin: 0 5% 0 5%;
+    text-align: -webkit-center;
 }
 
 .contact__container{
@@ -637,6 +638,7 @@ li {
 
 .contact__content{
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin-bottom: var(--biggest-font-size);
 }
 
 .contact__box{
