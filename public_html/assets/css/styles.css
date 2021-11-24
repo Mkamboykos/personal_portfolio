@@ -95,6 +95,9 @@ img{
 
 }
 
+li {
+    margin-bottom: .3rem;
+}
 
 /*===== CLASS CSS =====*/
 .section{
@@ -378,6 +381,7 @@ img{
 }
 
 /*===== QUALIFICATION =====*/
+
 .qualification__container{
     row-gap: 2.5rem;
     margin: 0 5% 0 5%;
@@ -397,14 +401,13 @@ img{
 }
 
 .qualification__box{
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #CCC;
+    padding-bottom: 0.5rem;
 }
 
 .qualification__area{
     font-size: var(--normal-font-size);
     color: var(--first-color);
-    margin-bottom: var(--mb-1);
+    margin-bottom: .25rem;
     font-weight: var(--font-medium);
 }
 
@@ -415,6 +418,19 @@ img{
 
 .qualification__work{
     display: block;
+}
+
+.qualification__list{
+    font-size: var(--smaller-font-size);
+    color: var(--first-color-light);
+    padding-left: var(--mb-4);
+    text-indent: -1.6em;
+    text-align: justify;
+}
+
+.qualification__data{
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 0.7rem;
 }
 
 /*===== SERVICES =====*/
@@ -485,9 +501,11 @@ img{
 
 /*===== PORTFOLIO =====*/
 
-.portfolio__side{
+
+
+/* .portfolio__side{
     margin: 0 5% 0 5%;
-}
+} */
 
 .portfolio__nav{
     text-align: center;
@@ -497,10 +515,11 @@ img{
 .portfolio__item{
     margin: 0 var(--mb-2);
     cursor: pointer;
+    font-size: 1.2rem;
 }
 
 .portfolio__content{
-    display: inline-table;
+    display: inline-flex;
     background-color: #FFF;
     border-radius: .5rem;
     overflow: hidden;
@@ -513,7 +532,7 @@ img{
 }
 
 .portfolio__data{
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .portfolio__subtitle{
@@ -539,14 +558,21 @@ img{
 .active-portfolio{
     color: var(--first-color-dark);
     font-weight: var(--font-semi-bold);
+    font-size: 1.5rem;
 }
-
 
 .content {
     padding: 0;
     display: none;
     overflow: hidden;
   }
+
+.portfolio-bd-grid{
+    display: inline-flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    flex-direction: row;
+}
 
   /* .content:active{
     padding: 0;
@@ -835,6 +861,7 @@ img{
     .services__container,
     .portfolio__container{
         grid-template-columns: repeat(3,1fr);
+        display: grid;
     }
 
     .project__container{
@@ -860,6 +887,8 @@ img{
     .project__title{
         font-size: 2.5rem;
     }
+
+    
 
 }
 
@@ -906,6 +935,21 @@ img{
         flex-wrap: nowrap;
         width: 160px;
         padding-left: 25px;
+    }
+
+    .portfolio-bd-grid{
+        display: inline-flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .portfolio__data {
+        padding: 2rem;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
 
 }

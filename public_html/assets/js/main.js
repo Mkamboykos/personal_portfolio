@@ -114,10 +114,10 @@ const mySwiper = new Swiper('.references__container', {
 
     breakpoints:{
         640:{
-            slidesPerView: 2,
+            slidesPerView: 3,
         },
         1024:{
-                slidesPerView: 2,
+                slidesPerView: 3,
         }
     }
   });
