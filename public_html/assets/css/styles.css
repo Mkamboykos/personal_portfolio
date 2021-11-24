@@ -940,7 +940,7 @@ li {
     .portfolio-bd-grid{
         display: inline-flex;
         gap: 1.5rem;
-        align-items: flex-start;
+        align-items: stretch;
         flex-direction: column;
     }
 
@@ -949,7 +949,21 @@ li {
         display: inline-flex;
         flex-direction: column;
         flex-wrap: wrap;
+        align-content: stretch;
         align-items: flex-start;
+    }
+/* 
+    .portfolio__content {
+        display: inline-flex;
+        background-color: #FFF;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgb(174 190 205 / 30%);
+        justify-content: center;
+    } */
+
+    .content{
+        cursor: zoom-out;
     }
 
 }
