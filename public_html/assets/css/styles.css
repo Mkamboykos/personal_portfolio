@@ -537,6 +537,7 @@ li {
 .portfolio__content{
     display: inline-flex;
     background-color: #FFF;
+    margin-right: 80px;
     border-radius: .5rem;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(174,190,205,.3);
@@ -583,9 +584,9 @@ li {
     overflow: hidden;
   }
 
+/* Flex start is what prevents all the projects from opening at the same time */
 .portfolio-bd-grid{
     display: inline-flex;
-    gap: 1.5rem;
     align-items: flex-start;
     flex-direction: row;
 }
@@ -974,6 +975,16 @@ li {
         flex-wrap: wrap;
         align-content: stretch;
         align-items: flex-start;
+    }
+
+    .portfolio__content {
+        display: inline-flex;
+        background-color: #FFF;
+        margin-right: 0px;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        width: auto;
+        box-shadow: 0 4px 6px rgb(174 190 205 / 30%);
     }
 /* 
     .portfolio__content {
