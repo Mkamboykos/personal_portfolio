@@ -56,10 +56,10 @@
             <!-- === HOME === -->
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
-                    <div class="home__data">
+                    <div class="home__data" style="transform: translate(13px, 0px);opacity: 1;">
                         <span class="home__greeting">Hello, My name is</span>
                         <h1 class="home__name">Manuel Kamboykos</h1>
-                        <span class="home__profession">Software Engineer</span>
+                        <span class="home__profession">Full-Stack Software Engineer</span>
                         <a download="" href="assets/pdf/Manuel_Kamboykos_Resume.pdf" class="button button-light home__button">Download CV</a>
                     </div>
 
@@ -68,9 +68,9 @@
                     </div>
                     
                     <div class="home__social">
-                        <a href="https://www.linkedin.com/in/manuel-kamboykos/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                        <a href="https://fiu.joinhandshake.com/users/7463722" target="_blank" class="home__social-icon"><i class='bx bx-user-circle'></i></a>
-                        <a href="https://github.com/Mkamboykos" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        <a href="https://www.linkedin.com/in/manuel-kamboykos/" target="_blank" class="home__social-icon" style="transform: translate(5px, 0px);opacity: 1;"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://fiu.joinhandshake.com/users/7463722" target="_blank" class="home__social-icon" style="transform: translate(5px, 0px);opacity: 1;"><i class='bx bx-user-circle'></i></a>
+                        <a href="https://github.com/Mkamboykos" target="_blank" class="home__social-icon" style="transform: translate(5px, 0px);opacity: 1;"><i class='bx bxl-github' ></i></a>
                     </div>
 
                     
@@ -279,40 +279,68 @@
 
             <!-- === SKILLS === -->
             <section class="services section bd-container" id="services">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title">Skills Summary</h2>
                 <div class="service__side">
-                    <div class="services__container bd-grid">
+                    <div class="services__container services-grid">
+                        <div class="centerSkills">
+                            <div class="services__data">
+                                <i class='bx bx-laptop services__icon' ></i>
+                                <h3 class="services__title">Languages</h3>
+                                <br/>
+                                <div class="insideContainer">
+                                    <h1 class="services__description">
+                                        <i class='bx bxl-html5 services__icon' style='color:#FF5733'  >
+                                        <i class='bx bxl-css3 services__icon' style='color:#264de4'  >
+                                        <i class='bx bxl-javascript services__icon' style='color:#f0db4f'  >
+                                        </i></i></i>   
+                                        
+                                        <br>
+                                        <i class="fab fa-java services__icon" style=" padding-left: 25px;">
+                                        <i class="fab fa-python services__icon" style="padding-left: 25px; padding-right: 25px; color:orange;">
+                                        <i class="fas fa-copyright services__icon" style="padding-left: 15px; color:rgba(9, 197, 211, 0.932)">
+                                        </i></i></i>
+                                </div>
+                            </div>
+                        
+                            <div class="services__data">
+                                <i class='bx bx-library services__icon' ></i>
+                                <h3 class="services__title">Frameworks</h3>
+                                <div class="insideContainer">
+                                    <h1 class="services__description">
+                                </div>
+                            </div>
 
-                        <div class="services__data">
-                            <i class='bx bx-laptop services__icon' ></i>
-                            <h3 class="services__title">Languages</h3>
-                            <br/>
-                            <h1 class="services__description">
-                                <i class='bx bxl-html5 services__icon' style='color:#FF5733'  >
-                                <i class='bx bxl-css3 services__icon' style='color:#264de4'  >
-                                <i class='bx bxl-javascript services__icon' style='color:#f0db4f'  >
-                                </i></i></i>   
-                                
-                                <br>
-                                <i class="fab fa-java services__icon" style=" padding-left: 25px;">
-                                <i class="fab fa-python services__icon" style="padding-left: 25px; padding-right: 25px; color:orange;">
-                                <i class="fas fa-copyright services__icon" style="padding-left: 15px; color:rgba(9, 197, 211, 0.932)">
-                                </i></i></i>
-                        </div>
-
-                        <div class="services__data">
-                            <i class='bx bx-library services__icon' ></i>
-                            <h3 class="services__title">Frameworks</h3>
-                            <p class="services__description">Description here</p>
-                        </div>
-
-                        <div class="services__data">
-                            <i class='bx bx-pen services__icon' ></i>
-                            <h3 class="services__title">IDEs</h3>
-                            <p class="services__description">Description here</p>
+                            <div class="services__data">
+                                <i class='bx bx-wrench services__icon' ></i>
+                                <h3 class="services__title">Tools</h3>
+                                <div class="insideContainer">
+                                    <h1 class="services__description">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                    <br/>
+
+                    <div class="services__container services-grid service__side">    
+
+                        <div class="services__data">
+                            <i class='bx bxs-data services__icon' ></i>
+                            <h3 class="services__title">Databases</h3>
+                            <div class="insideContainer">
+                                <h1 class="services__description">
+                            </div>
+                        </div>
+
+                        <div class="services__data">
+                            <i class='bx bx-layer services__icon' ></i>
+                            <h3 class="services__title">Platforms</h3>
+                            <div class="insideContainer">
+                                <h1 class="services__description">
+                            </div>
+                        </div>
+                    </div>
+                
             </section>
 
 
