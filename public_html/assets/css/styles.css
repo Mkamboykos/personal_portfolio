@@ -1055,7 +1055,6 @@ li {
     }
 
     .services__data{
-        width: 27vh;
         display: flex;
         flex-direction: column;
         align-items: center;
