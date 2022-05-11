@@ -1074,3 +1074,9 @@ li {
         padding-right: 15px;
     }
 }
+
+@media screen and (min-width:991px) and (max-width:1105px){
+    .contact__description{
+        font-size: small;
+    }
+}
