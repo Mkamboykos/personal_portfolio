@@ -164,6 +164,28 @@ li {
     }
 }
 
+@media screen and (min-width:768px) and (max-width:989px){
+    .home, .about, .services, .qualification, .project, .portfolio, .references, .contact, .footer{
+        width: 106vw;
+    }
+
+    .contact__description{
+        font-size: smaller;
+    }
+    
+    .references__content{
+        margin-left: 2px;
+        width: 296.333px;
+    }
+
+    .services__data{
+        width: 31vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .nav__item{
     margin-bottom: var(--mb-3);
 }
