@@ -1039,9 +1039,9 @@ li {
 
 }
 
-@media screen and (min-width:768px) and (max-width:989px){
+@media screen and (min-width:768px) and (max-width:990px){
     /* .home, .about, .services, .qualification, .project, .portfolio, .references, .contact, .footer{
-        width: 106vw;
+        width: 100vw;
     } */
 
     .contact__description{
@@ -1055,7 +1055,7 @@ li {
     }
 
     .services__data{
-        width: 28vh;
+        width: 27vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1070,7 +1070,7 @@ li {
     }
 
     .bxl-bootstrap{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
