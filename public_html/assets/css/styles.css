@@ -63,7 +63,7 @@ html{
 }
 
 body{
-  margin: var(--header-height) 0 0 0;
+  margin: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
@@ -294,14 +294,14 @@ li {
 
 .home__img{
     position: absolute;
+    width: auto;
+    bottom: 0;
     right: 0;
-    bottom: -10px;
-    margin-right: -100px;
 }
 
-.home__img img{
+.home__img > img{
     width: 600px;
-    
+    margin-bottom: -10px;
 }
 
 .home__social{
@@ -933,7 +933,7 @@ li {
         column-gap: 6rem;
     }
     
-    .home__img img {
+    .home__img > img {
         width: 1675px;
         margin-left: 415px;
     }
@@ -950,15 +950,12 @@ li {
 
 @media screen and (max-width: 1350px){
 
-    .home__img img {
+    .home__img > img {
         width: 752px;
     }
 
     .custom__homeImg {
-        max-width: fit-content;
-        max-height: 491px;
-        display: table-cell;
-        margin-right: -202px;
+        height: 100%;
     }
 
     .logo-align{
@@ -1018,23 +1015,23 @@ li {
 } */
 
 @media screen and (max-width: 1500px) and (orientation: landscape){
-    .home__img img {
+    .home__img > img {
         width: 1476px;
         margin-left: 313px;
     }
 }
 
 @media screen and (min-width: 1501px) and (orientation: landscape){
-    .home__img img {
+    .home__img > img {
         margin-left: 430px;
     }
 
 }
 
 @media screen and (min-width: 1920px) and (orientation: landscape){
-    .home__img img .homeImg{
+    .home__img > img > .homeImg{
         width: 1051px;
-    margin-left: 796px;
+        margin-left: 796px;
     }
 
 }
@@ -1043,6 +1040,10 @@ li {
     /* .home, .about, .services, .qualification, .project, .portfolio, .references, .contact, .footer{
         width: 100vw;
     } */
+
+    .home__img > img {
+        margin-left: 154px;
+    }
 
     .contact__description{
         font-size: smaller;
