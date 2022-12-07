@@ -1058,7 +1058,7 @@ li {
     .contact__description{
         font-size: smaller;
     }
-    
+
     .references__content{
         margin-left: 2px;
         margin-right: 13.5px !important;
@@ -1074,10 +1074,6 @@ li {
 
     .services-grid{
         gap: 1rem;
-    }
-
-    .insideContainer{
-        width: auto;
     }
 
     .bxl-bootstrap{
