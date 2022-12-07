@@ -528,14 +528,14 @@
                             <div class="contact__box">
                                 <i class='bx bx-home contact__icon' ></i>
                                 <h3 class="contact__title">Location</h3>
-                                <span class="contact__description"> Miami, FL</span>
+                                <span class="contact__description">Bentonville, AR</span>
                             </div>
 
-                            <div class="contact__box">
+                            <!-- <div class="contact__box">
                                 <i class='bx bx-phone contact__icon' ></i>
                                 <h3 class="contact__title">Phone</h3>
                                 <span class="contact__description">+1 (786) 539-7122</span>
-                            </div>
+                            </div> -->
 
                             <div class="contact__box">
                                 <i class='bx bx-envelope contact__icon' ></i>
@@ -556,19 +556,16 @@
                         </div>
 
                         <!-- CONTACT FORM -->
-                        <form action="" class="contact__form">
+                        <form action="https://formsubmit.co/manuel.kamboykos@gmail.com" method="POST" class="contact__form">
                             <div class="contact__inputs">
-                                <input type="text" placeholder="Name" class="contact__input">
-                                <input type="email" placeholder="Email" class="contact__input">
+                                <input type="hidden" name='_subject' value="New Email from Manuelkamboykos.com">
+                                <input type="text" name='name' placeholder="Name" class="contact__input" required>
+                                <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                                <!-- <input type="hidden" name="_next" value="https://manuelkamboykos.com/thankyou.html"> -->
+                                <input type="text" name="_honey" style="display:none">
+                                <input type="hidden" name="_template" value="table"> <!-- table template -->
                             </div>
-
-                            <div class="contact__inputs">
-                                <input type="text" placeholder="Project" class="contact__input">
-                                <input type="number" placeholder="Number" class="contact__input">
-                            </div>
-
-                            <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
-
+                            <textarea name="message" cols="0" rows="7" placeholder="Enter a message here." class="contact__input"></textarea>
                             <input type="submit" value="Send Message" class="button contact_button">
                         </form>
 
